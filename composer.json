@@ -1,6 +1,7 @@
 {
     "name": "testowankolel/socute",
     "description": "Some testing stuff",
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {

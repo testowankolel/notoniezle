@@ -1,16 +1,26 @@
 {
     "name": "testowankolel/notoniezle2",
-    "description": "Some testing stuff",
-    "minimum-stability": "dev",
+    "type": "library",
+    "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
+    "keywords": [],
+    "homepage": "https://symfony.com",
     "license": "MIT",
     "authors": [
         {
-            "name": "Julian Hector",
-            "email": "julian@cure53.de"
+            "name": "haqpl",
+            "email": "lele@wsdsds.pl"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "https://symfony.com/contributors"
         }
     ],
-    "autoload": {
-        "psr-4": { "Julian\\Testing\\": "src" }
+    "require": {
     },
-    "require": {}
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": { "Symfony\\Component\\EventDispatcher\\": "" }
+    },
+    "minimum-stability": "dev"
 }

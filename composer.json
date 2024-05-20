@@ -1,27 +1,12 @@
 {
-    "name": "testowankolel/notoniezle3",
-    "type": "library",
-    "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
-    "keywords": [],
-    "homepage": "https://symfony.com",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "haqpl",
-            "email": "lele@wsdsds.pl"
-        },
-        {
-            "name": "Symfony Community",
-            "homepage": "https://symfony.com/contributors"
-        }
-    ],
+    "name": "vendor/library",
+    "description": "desc",
     "require": {
-        "php": ">=8.2"
-    },
-    "require-dev": {
+        "php": ">=7.4"
     },
     "autoload": {
-        "psr-4": { "Symfony\\Component\\EventDispatcher\\": "" }
-    },
-    "minimum-stability": "dev"
+        "psr-4": {
+            "Vendor\\LibraryName\\": "src/"
+        }
+    }
 }
